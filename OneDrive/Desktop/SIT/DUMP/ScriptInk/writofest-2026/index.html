@@ -1437,6 +1437,55 @@ document.addEventListener('DOMContentLoaded', function () {
   .checkpoint .card { padding: 16px 14px; }
 }
 
+
+/* WritoFest mobile layout corrections: hero and event timeline */
+@media (max-width: 760px) {
+  html { scroll-padding-top: 86px; }
+  section, [id] { scroll-margin-top: 86px; }
+  .site-header { z-index: 1000; }
+  .hero { min-height: 0 !important; padding: 128px 0 44px !important; }
+  .hero-inner { gap: 20px !important; }
+  .hero h1 { font-size: clamp(42px, 10.5vw, 68px) !important; line-height: 1.03 !important; letter-spacing: -.055em !important; overflow-wrap: anywhere; }
+  .rotator { height: 38px !important; line-height: 38px !important; font-size: clamp(22px, 6vw, 32px) !important; letter-spacing: .06em !important; }
+  .info-card { width: 100% !important; max-width: 460px; padding: 15px 13px !important; gap: 12px !important; justify-content: center; border-radius: 18px !important; }
+  .info { min-width: 0; gap: 9px !important; }
+  .info strong { font-size: 14px !important; line-height: 1.35; }
+  .info small { font-size: 10px !important; letter-spacing: .5px !important; }
+  .hero-actions { display: grid !important; grid-template-columns: 1fr !important; width: 100% !important; gap: 12px !important; padding-top: 2px !important; }
+  .hero-actions .btn { display: flex; width: 100% !important; min-width: 0 !important; min-height: 54px !important; height: auto !important; padding: 16px 18px !important; border-radius: 16px !important; font-size: 14px !important; line-height: 1.35 !important; letter-spacing: .35px !important; white-space: normal; }
+  .stats { padding-top: 30px !important; gap: 10px !important; }
+  .stat, .stat:first-child, .stat:last-child { padding: 17px 10px !important; }
+  .stat .number { font-size: clamp(28px, 7vw, 38px) !important; line-height: 1.2 !important; }
+  .timeline-section { padding-top: 62px !important; }
+  .timeline-section .section-heading { margin: 0 auto 34px !important; padding: 0 12px; }
+  .timeline-section .section-heading h2, .timeline-section .section-title { font-size: clamp(30px, 8vw, 42px) !important; line-height: 1.14 !important; letter-spacing: -.045em !important; overflow-wrap: anywhere; }
+  .timeline-section .section-heading p { margin-top: 12px !important; font-size: 15px !important; line-height: 1.55 !important; }
+  .timeline { width: 100%; padding: 0 0 0 27px; }
+  .timeline:before, .timeline-progress { left: 7px !important; }
+  .checkpoint { display: flex !important; flex-direction: column !important; gap: 10px !important; padding-left: 0 !important; margin: 0 0 28px !important; min-height: 0 !important; }
+  .checkpoint .node { left: 7px !important; top: 11px !important; width: 17px !important; height: 17px !important; transform: translate(-50%, 0) !important; }
+  .checkpoint .node:after { width: 7px !important; height: 7px !important; }
+  .checkpoint .date, .checkpoint:nth-child(odd) .date, .checkpoint:nth-child(even) .date { display: block; padding: 0 !important; margin: 0 !important; text-align: left !important; font-size: clamp(15px, 4.1vw, 18px) !important; line-height: 1.45 !important; overflow-wrap: anywhere; }
+  .checkpoint .date small { display: inline-block; margin: 3px 0 0 4px !important; font-size: 10px !important; line-height: 1.4 !important; letter-spacing: .7px !important; }
+  .checkpoint .card, .checkpoint:nth-child(odd) .card, .checkpoint:nth-child(even) .card { width: 100%; margin: 0 !important; padding: 18px 16px !important; text-align: left !important; border-radius: 18px !important; }
+  .checkpoint .card h3 { font-size: clamp(18px, 5vw, 22px) !important; line-height: 1.32 !important; overflow-wrap: anywhere; }
+  .checkpoint .card p { font-size: 15px !important; line-height: 1.6 !important; }
+}
+@media (max-width: 390px) {
+  .site-header { padding-left: 11px !important; padding-right: 11px !important; }
+  .brand { font-size: 18px !important; }
+  .hero { padding-top: 122px !important; }
+  .hero h1 { font-size: clamp(39px, 10.8vw, 48px) !important; }
+  .info-card { gap: 9px !important; padding: 13px 10px !important; }
+  .info strong { font-size: 12px !important; }
+  .hero-actions .btn { min-height: 50px !important; padding: 14px !important; }
+  .timeline-section { padding-top: 48px !important; }
+  .timeline-section .section-heading { margin-bottom: 27px !important; }
+  .timeline { padding-left: 23px; }
+  .timeline:before, .timeline-progress, .checkpoint .node { left: 6px !important; }
+  .checkpoint .card, .checkpoint:nth-child(odd) .card, .checkpoint:nth-child(even) .card { padding: 16px 14px !important; }
+}
+
 </style>
 
 <script id="writofest-scrollspy">
