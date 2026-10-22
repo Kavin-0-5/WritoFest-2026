@@ -109636,5 +109636,36 @@ textarea:focus,textarea:focus-visible,button:focus-visible,a:focus-visible,
  .faq.side-card .faq-toggle,.faq .faq-toggle{flex-basis:34px !important;width:34px !important;height:34px !important;min-width:34px !important;min-height:34px !important}
 }
 
+
+
+/* Final mobile timeline alignment: center each node directly on the vertical rail. */
+@media (max-width: 768px) {
+  #timeline.timeline, .timeline {
+    position: relative !important;
+    padding-left: 25px !important;
+    padding-right: 0 !important;
+  }
+  #timeline.timeline::before, .timeline::before,
+  #timeline .timeline-progress, .timeline .timeline-progress {
+    left: 7px !important;
+    transform: translateX(-50%) !important;
+    width: 2px !important;
+    margin: 0 !important;
+  }
+  #timeline .checkpoint, .timeline .checkpoint {
+    position: relative !important;
+  }
+  #timeline .checkpoint .node, .timeline .checkpoint .node {
+    left: -18px !important;
+    top: 12px !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 3 !important;
+    margin: 0 !important;
+  }
+  #timeline .timeline-progress::after, .timeline .timeline-progress::after {
+    left: 50% !important;
+    transform: translate(-50%, 50%) !important;
+  }
+}
 </style>
 </body></html>
