@@ -17,7 +17,7 @@
 
 **WritoFest 2026** is an event website created to bring the event experience online. It helps visitors explore the activities, view event information and timeline, access the brochure, and find the registration form in one place.
 
-The event is presented by **ScriptInk — the Technical and Literary Club of Siddaganga Institute of Technology (SIT), Tumkur**.
+The event is presented by **ScriptInk - the Technical and Literary Club of Siddaganga Institute of Technology (SIT), Tumkur**.
 
 ## Event Details
 
@@ -51,15 +51,15 @@ The project involved building and refining the event website, with attention to 
 - Refined interface elements such as the timeline, gallery, FAQ section, and navigation.
 - Prepared the repository structure for a straightforward static-site deployment.
 
-*If you worked with others on any of these areas, update this section to reflect your exact individual contribution.*
+
 
 ## Tech Stack
 
-- **HTML** — page structure
-- **CSS** — styling and responsive layouts
-- **JavaScript** — interactions and form validation
-- **Vercel** — website deployment
-- **Git & GitHub** — version control and project hosting
+- **HTML** - page structure
+- **CSS** - styling and responsive layouts
+- **JavaScript** - interactions and form validation
+- **Vercel** - website deployment
+- **Git & GitHub** - version control and project hosting
 
 ## Run Locally
 
