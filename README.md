@@ -27,9 +27,9 @@ The event is presented by **ScriptInk - the Technical and Literary Club of Sidda
 
 ## Featured Events
 
-- **Ink Your Script** — Write poems and stories inspired by images and imagination.
-- **Open Mic** — Share your voice, ideas, and talent.
-- **Pop-Up Quiz** — Test your knowledge and quick thinking.
+- **Ink Your Script** - Write poems and stories inspired by images and imagination.
+- **Open Mic** - Share your voice, ideas, and talent.
+- **Pop-Up Quiz** - Test your knowledge and quick thinking.
 
 ## Website Features
 
